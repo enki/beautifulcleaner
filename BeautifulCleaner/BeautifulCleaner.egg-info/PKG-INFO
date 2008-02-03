@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: BeautifulCleaner
-Version: 2.0dev
+Version: 2.0
 Summary: A port of lxml.html.clean.Cleaner to the BeautifulSoup api
 Home-page: UNKNOWN
 Author: Jon Rosebaugh
