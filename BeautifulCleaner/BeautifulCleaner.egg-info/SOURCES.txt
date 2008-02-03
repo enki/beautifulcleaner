@@ -6,7 +6,6 @@ BeautifulCleaner/defs.py
 BeautifulCleaner/test_clean.py
 BeautifulCleaner.egg-info/PKG-INFO
 BeautifulCleaner.egg-info/SOURCES.txt
-BeautifulCleaner.egg-info/SOURCES.txt.orig
 BeautifulCleaner.egg-info/dependency_links.txt
 BeautifulCleaner.egg-info/entry_points.txt
 BeautifulCleaner.egg-info/paster_plugins.txt
