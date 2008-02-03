@@ -337,6 +337,7 @@ class Cleaner(object):
         if BeautifulSoup.ProcessingInstruction in remove_tags:
             for el in doc.findAll(text=lambda text:isinstance(text, BeautifulSoup.ProcessingInstruction)):
                 _remove.append(el)
+        # I don't think this is needed for BeautifulSoup
         # if _remove and _remove[0] == doc:
         #     # We have to drop the parent-most tag, which we can't
         #     # do.  Instead we'll rewrite it:

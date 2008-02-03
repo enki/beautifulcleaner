@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+BeautifulCleaner.egg-info/PKG-INFO
+BeautifulCleaner.egg-info/SOURCES.txt
+BeautifulCleaner.egg-info/dependency_links.txt
+BeautifulCleaner.egg-info/entry_points.txt
+BeautifulCleaner.egg-info/not-zip-safe
+BeautifulCleaner.egg-info/paster_plugins.txt
+BeautifulCleaner.egg-info/requires.txt
+BeautifulCleaner.egg-info/top_level.txt
+beautifulcleaner/__init__.py
