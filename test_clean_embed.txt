@@ -1,0 +1,29 @@
+>>> from bc import clean, clean_html, Cleaner
+
+>>> doc_embed = '''<div>
+... <embed src="http://www.youtube.com/v/183tVH1CZpA" type="application/x-shockwave-flash"></embed>
+... <embed src="http://anothersite.com/v/another"></embed>
+... <script src="http://www.youtube.com/example.js"></script>
+... <script src="/something-else.js"></script>
+... </div>'''
+>>> print Cleaner().clean_html(doc_embed)
+<div>
+<BLANKLINE>
+<BLANKLINE>
+<BLANKLINE>
+<BLANKLINE>
+</div>
+>>> print Cleaner(host_whitelist=['www.youtube.com']).clean_html(doc_embed)
+<div>
+<embed src="http://www.youtube.com/v/183tVH1CZpA" type="application/x-shockwave-flash"></embed>
+<BLANKLINE>
+<BLANKLINE>
+<BLANKLINE>
+</div>
+>>> print Cleaner(host_whitelist=['www.youtube.com'], whitelist_tags=None).clean_html(doc_embed)
+<div>
+<embed src="http://www.youtube.com/v/183tVH1CZpA" type="application/x-shockwave-flash"></embed>
+<BLANKLINE>
+<script src="http://www.youtube.com/example.js"></script>
+<BLANKLINE>
+</div>
