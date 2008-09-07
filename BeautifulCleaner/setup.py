@@ -8,12 +8,15 @@ setup(name='BeautifulCleaner',
       description="A port of lxml.html.clean.Cleaner to the BeautifulSoup api",
       long_description="""\
 """,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      classifiers=[
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: BSD License",
+      ], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='sanitize clean html beautifulsoup',
       author='Jon Rosebaugh',
       author_email='',
       url='',
-      license='',
+      license='BSD',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=True,
