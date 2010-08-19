@@ -195,6 +195,12 @@ class Cleaner(object):
         a='href',
         )
 
+    def whitewash(self, doc):
+        """ delete all tags. """
+        self(doc)
+        for el in doc.findAll():
+            removeElement(el)
+        
     def __call__(self, doc):
         """
         Cleans the document.

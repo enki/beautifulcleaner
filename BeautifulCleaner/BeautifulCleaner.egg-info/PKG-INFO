@@ -1,11 +1,13 @@
 Metadata-Version: 1.0
 Name: BeautifulCleaner
-Version: 2.0
+Version: 2.0dev
 Summary: A port of lxml.html.clean.Cleaner to the BeautifulSoup api
 Home-page: UNKNOWN
 Author: Jon Rosebaugh
 Author-email: UNKNOWN
-License: UNKNOWN
+License: BSD
 Description: UNKNOWN
 Keywords: sanitize clean html beautifulsoup
 Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
